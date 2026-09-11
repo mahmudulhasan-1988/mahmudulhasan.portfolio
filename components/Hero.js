@@ -284,10 +284,10 @@ export default function Hero({ bio }) {
                   {/* Bottom Text Overlay inside photo */}
                   <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                     <div>
-                      <h3 className="text-white font-extrabold text-lg sm:text-xl drop-shadow-md">
+                      <h3 className="text-white keep-white font-extrabold text-lg sm:text-xl drop-shadow-md">
                         {data?.name || 'Mahmudul Hasan'}
                       </h3>
-                      <p className="text-violet-300 text-xs font-mono font-medium mt-0.5">
+                      <p className="text-violet-300 text-xs font-mono font-medium mt-0.5 keep-white">
                         {data?.designation || 'Senior Full-Stack Engineer'}
                       </p>
                     </div>
